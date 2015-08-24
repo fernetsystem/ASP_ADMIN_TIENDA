@@ -1,0 +1,6 @@
+c:\users\ferne_000\documents\visual studio 2013\Projects\ASP_ADMIN_TIENDA\ASP_ADMIN_TIENDA\bin\ASP_ADMIN_TIENDA.dll.config
+c:\users\ferne_000\documents\visual studio 2013\Projects\ASP_ADMIN_TIENDA\ASP_ADMIN_TIENDA\bin\ASP_ADMIN_TIENDA.dll
+c:\users\ferne_000\documents\visual studio 2013\Projects\ASP_ADMIN_TIENDA\ASP_ADMIN_TIENDA\bin\ASP_ADMIN_TIENDA.pdb
+c:\users\ferne_000\documents\visual studio 2013\Projects\ASP_ADMIN_TIENDA\ASP_ADMIN_TIENDA\obj\Debug\ASP_ADMIN_TIENDA.csprojResolveAssemblyReference.cache
+c:\users\ferne_000\documents\visual studio 2013\Projects\ASP_ADMIN_TIENDA\ASP_ADMIN_TIENDA\obj\Debug\ASP_ADMIN_TIENDA.dll
+c:\users\ferne_000\documents\visual studio 2013\Projects\ASP_ADMIN_TIENDA\ASP_ADMIN_TIENDA\obj\Debug\ASP_ADMIN_TIENDA.pdb
