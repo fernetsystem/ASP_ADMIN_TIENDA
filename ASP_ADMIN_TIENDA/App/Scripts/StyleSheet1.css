@@ -1,0 +1,15 @@
+﻿body {
+}
+.myLogin{
+    background-color: #ebf0f5;
+    border: 1px solid;
+    border-color: #e5ecef;
+    border-radius: 6px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 13px;
+    padding-top:15px;
+    height: 300px;
+    width: 300px;
+
+}
