@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ASP_ADMIN_TIENDA.App.Site1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Menu.aspx.cs" Inherits="ASP_ADMIN_TIENDA.App.Menu" %>
 
 <!DOCTYPE html>
 
@@ -11,8 +11,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
 </head>
 <body>
     <div class="page-header">
@@ -22,18 +20,19 @@
     <div class="row">
         <div class="col-md-4">
             <ul class="nav nav-pills nav-stacked">
-                <li role="presentation" class="active"><a href="#">Home</a></li>
-                <li role="presentation"><a href="MYRequestRecient.aspx">Pedidos recientes</a></li>
-                <li role="presentation"><a href="MyProducts.aspx">Control de productos</a></li>
+                <li role="presentation" class="active"><a href="#">Pedidos recientes</a></li>
+                <li role="presentation"><a href="#">Control de productos</a></li>
                 <li role="presentation"><a href="#">Pedidos y Ventas</a></li>
             </ul>
         </div>
-        <div class="col-md-8">          
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>  
+        <div class="col-md-8">
+            <form id="form1" runat="server">
+            <div class="table-responsive">
+                <asp:GridView ID="GridView1" runat="server" class=" table table-bordered table-hover " ></asp:GridView>
+            </div>
+            </form>
         </div>
     </div>
     </div>
-    
 </body>
 </html>

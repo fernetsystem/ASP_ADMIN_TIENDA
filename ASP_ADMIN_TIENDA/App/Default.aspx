@@ -22,7 +22,7 @@
         <h1>Login</h1>
         <asp:TextBox ID="TextBox1" runat="server" class="form-control" placeholder="E-Mail" type="text" required autofocus></asp:TextBox>
         <asp:TextBox ID="TextBox2" runat="server" class="form-control" placeholder="Password" type="password" required></asp:TextBox><br />
-        <asp:Button ID="Button2" runat="server" class="btn btn-primary" Text="Sign in" />
+        <asp:Button ID="Button2" runat="server" class="btn btn-success" Text="Sign in" OnClick="Button2_Click" />
     </form>
 </body>
 </html>
