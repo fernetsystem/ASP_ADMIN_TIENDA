@@ -57,6 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\MyProducts.aspx" />
+    <Content Include="App\MyRequestRecient.aspx" />
     <Content Include="App\Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -85,6 +87,20 @@
     </Compile>
     <Compile Include="App\Menu.aspx.designer.cs">
       <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\MyProducts.aspx.cs">
+      <DependentUpon>MyProducts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\MyProducts.aspx.designer.cs">
+      <DependentUpon>MyProducts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\MyRequestRecient.aspx.cs">
+      <DependentUpon>MyRequestRecient.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\MyRequestRecient.aspx.designer.cs">
+      <DependentUpon>MyRequestRecient.aspx</DependentUpon>
     </Compile>
     <Compile Include="App\Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
