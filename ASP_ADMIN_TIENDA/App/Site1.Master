@@ -5,16 +5,35 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
+    <div class="page-header">
+        <h1>Elity <small>panel de control</small></h1>
     </div>
-    </form>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            <ul class="nav nav-pills nav-stacked">
+                <li role="presentation" class="active"><a href="#">Home</a></li>
+                <li role="presentation"><a href="MYRequestRecient.aspx">Pedidos recientes</a></li>
+                <li role="presentation"><a href="MyProducts.aspx">Control de productos</a></li>
+                <li role="presentation"><a href="#">Pedidos y Ventas</a></li>
+            </ul>
+        </div>
+        <div class="col-md-8">          
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>  
+        </div>
+    </div>
+    </div>
+    
 </body>
 </html>
